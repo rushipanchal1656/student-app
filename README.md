@@ -128,7 +128,7 @@ To view the contents of the file, we need to install the tree command:
 sudo apt install tree -y
 ```
 
-<img src="images/tree-image.png" alt="Verify Maven Installation" width="500"/>
+<img src="images/tree-install.png" alt="Verify Maven Installation" width="500"/>
 ---
 
 ### 6. Build the Project with Maven
