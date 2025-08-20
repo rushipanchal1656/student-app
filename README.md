@@ -29,7 +29,7 @@ Student-App is a web application designed to manage student records efficiently.
 sudo apt update && sudo apt upgrade -y
 ```
 
-<img src="images/first_image.png" alt="Launching Ubuntu machine" width="400"/>
+<img src="images/first_image.png" alt="Launching Ubuntu machine" width="500"/>
 
 ---
 
@@ -41,7 +41,7 @@ sudo apt install git -y
 git --version
 ```
 
-<img src="images/second_image.png" alt="Installing Git" width="400"/>
+<img src="images/second_image.png" alt="Installing Git" width="500"/>
 
 ---
 
@@ -55,7 +55,7 @@ git clone <https://github.com/><your-username>/student-app.git
 cd student-app
 ```
 
-<img src="images/third_image.png" alt="Clone the GitHub Repository" width="400"/>
+<img src="images/third_image.png" alt="Clone the GitHub Repository" width="500"/>
 
 ---
 
@@ -68,8 +68,8 @@ sudo apt install openjdk-11-jdk -y
 java -version
 ```
 
-<img src="images/fourth_image1.png" alt="Install Java" width="400"/>
-<img src="images/fourth_image2.png" alt="Verify Java Installation" width="400"/>
+<img src="images/fourth_image1.png" alt="Install Java" width="500"/>
+<img src="images/fourth_image2.png" alt="Verify Java Installation" width="500"/>
 
 ---
 
@@ -83,8 +83,8 @@ sudo apt install maven -y
 mvn -version
 ```
 
-<img src="images/fifth_image1.png" alt="Installing Maven" width="400"/>
-<img src="images/fifth_image2.png" alt="Verify Maven Installation" width="400"/>
+<img src="images/fifth_image1.png" alt="Installing Maven" width="500"/>
+<img src="images/fifth_image2.png" alt="Verify Maven Installation" width="500"/>
 
 #### 5.1 Creating a project
 
@@ -119,15 +119,16 @@ my-app
 
 You can now open this project in your favorite IDE (like IntelliJ IDEA or Eclipse) and start developing your application.
 
-<img src="images/six_image1.png" alt="Creating a Maven Project" width="400"/>
-<img src="images/six_image2.png" alt="Maven Project Structure" width="400"/>
+<img src="images/six_image1.png" alt="Creating a Maven Project" width="500"/>
+<img src="images/six_image2.png" alt="Maven Project Structure" width="500"/>
 
 To view the contents of the file, we need to install the tree command:
 
 ``` bash
 sudo apt install tree -y
 ```
-<img src="images/tree-install.png" alt="Tree Installation" width="400"/>
+
+<img src="images/tree_image.png" alt="Verify Maven Installation" width="500"/>
 ---
 
 ### 6. Build the Project with Maven
@@ -135,6 +136,10 @@ sudo apt install tree -y
 ``` bash
 mvn clean package
 ```
+
+This command will compile the project, run tests, and package the application into a JAR or WAR file located in the `target` directory.
+<img src="images/eight_image1.png" alt="Building the Project with Maven" width="500"/>
+<img src="images/eight_image2.png" alt="Building the Project with Maven" width="500"/>
 
 ---
 
@@ -162,8 +167,8 @@ sudo systemctl enable jenkins
 sudo systemctl start jenkins
 ```
 
-<img src="images/seven_image1.png" alt="Installing Jenkins" width="400"/>
-<img src="images/seven_image2.png" alt="Jenkins Service Status" width="400"/>
+<img src="images/seven_image1.png" alt="Installing Jenkins" width="500"/>
+<img src="images/seven_image2.png" alt="Jenkins Service Status" width="500"/>
 
 Check status:
 
@@ -254,8 +259,8 @@ sudo cp student-app.war /var/lib/tomcat9/webapps/
 
 ## Screenshots
 
-<img src="images/app_home.png" alt="App Home" width="400"/>
-<img src="images/app_add_student.png" alt="Add Student" width="400"/>
+<img src="images/app_home.png" alt="App Home" width="500"/>
+<img src="images/app_add_student.png" alt="Add Student" width="500"/>
 
 ---
 
@@ -266,5 +271,3 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ## Author
 
 Rushikesh Panchal
-
-
