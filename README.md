@@ -6,7 +6,7 @@ This project demonstrates how to build and deploy the **Student-App** on an AWS 
 
 ## Project Overview
 
-Student-App is a web application designed to manage student records efficiently. It allows users to add, update, delete, and view student information through a user-friendly interface
+Student-App is a web application designed to efficiently manage student records. It allows users to add, update, delete, and view student information through a user-friendly interface
 
 ---
 
@@ -128,7 +128,7 @@ To view the contents of the file, we need to install the tree command:
 sudo apt install tree -y
 ```
 
-<img src="images/tree_image.png" alt="Verify Maven Installation" width="500"/>
+<img src="images/tree-image.png" alt="Verify Maven Installation" width="500"/>
 ---
 
 ### 6. Build the Project with Maven
@@ -137,7 +137,8 @@ sudo apt install tree -y
 mvn clean package
 ```
 
-This command will compile the project, run tests, and package the application into a JAR or WAR file located in the `target` directory.
+This command compiles the project, runs tests, and packages the application into a JAR or WAR file, located in the `target` directory.
+
 <img src="images/eight_image1.png" alt="Building the Project with Maven" width="500"/>
 <img src="images/eight_image2.png" alt="Building the Project with Maven" width="500"/>
 
